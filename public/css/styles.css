@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    margin: 0;
+    background-color: #31052f;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: rgb(236, 233, 233);;
+    background-color: #31052f;
+
+}
+
+/* CSS */
+.button-33 {
+  background-color: #c32f27;
+  border-radius: 100px;
+  box-shadow: rgba(201, 17, 17, 0.2) 0 -25px 18px -14px inset,rgba(187, 44, 44, 0.15) 0 1px 2px,rgba(187, 44, 44, 0.15) 0 2px 4px,rgba(187, 44, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(187, 44, 44, 0.15) 0 16px 32px;
+  color: rgb(236, 233, 233);
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+    box-shadow: rgba(201, 17, 17, 0.2) 0 -25px 18px -14px inset,rgba(187, 44, 44, 0.15) 0 1px 2px,rgba(187, 44, 44, 0.15) 0 2px 4px,rgba(187, 44, 44, 0.15) 0 4px 8px,rgba(187, 44, 44, 0.15) 0 8px 16px,rgba(187, 44, 44, 0.15) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.number{
+    color: rgb(236, 233, 233);
+    font-size: 24px;
+    margin: 0 0 20px 0;
+    border-radius: 23px;
+    border: 1px solid #000000;
+}
+
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+
+.piramid{
+  color: rgb(236, 233, 233);
+    font-size: 18px !important;
+    text-align: center;
+    background-color: #31052f;
+}
